@@ -1,5 +1,5 @@
 import telebot  # Импортируем библиотеку telebot, которая позволяет взаимодействовать с Telegram API.
-from config import keys,   # Импортируем словарь ключей и токен бота из файла config.py.
+from config import keys, TOKEN  # Импортируем словарь ключей и токен бота из файла config.py.
 from extensions import APIException, \
     CriptoConverter  # Импортируем классы APIException и CriptoConverter из файла extensions.py.
 
